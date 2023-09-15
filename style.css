@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'General Sans';
+    
+}
+
+.contenido{
+    scroll-behavior: smooth;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 250px auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg{
+    position: absolute;
+    background-color: #030912;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+}
+
+.bg1{
+    position: absolute;    
+    background-color: #030912;
+    z-index: -10;
+    right: 0;
+    width: 120%;
+    height: 100%;
+    animation-name: animacion1;
+    animation-duration: .8s;
+    animation-timing-function: ease-out;
+    animation-delay: .8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animacion1 {
+    0%  {clip-path: polygon(0 0, 100% 0, 100% 120%, 0 120%);}
+    100% {clip-path: polygon(-70% 0, 100% 87%, 100% 120%, 0 120%);}
+}
+
+
+
+.bg2{
+    position: absolute;
+    background-color: #10161f;
+    background-size: cover;
+    z-index: -11;
+    top: 0;
+    right: 0;
+    width: 120%;
+    height: 100%;
+    background-repeat: no-repeat;
+    animation-name: mianimacion2;
+    animation-duration: 1.7s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mianimacion2 {
+    0% {clip-path: polygon(0 -15%, 100% 0, 100% 120%, 0 120%);}
+    100% {clip-path: polygon(0 -15%, 100% 68%, 100% 120%, 0 120%);}
+}
+
+.bg3{
+    position: absolute;
+    background-color: #161c25;
+    background-size: cover;
+    z-index: -12;
+    top: 0;
+    right: 0;
+    width: 120%;
+    height: 100%;
+    background-repeat: no-repeat;
+    animation-name: mianimacion3;
+    animation-duration: 1.7s;
+    animation-timing-function: ease-out;
+    animation-delay: 1.4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mianimacion3 {
+    0% {clip-path: polygon(0 -30%, 100% 0, 100% 120%, 0 120%);} 
+    100% {clip-path: polygon(0 -30%, 100% 30%, 100% 120%, 0 120%);}   
+}
+
+.bg4{
+    background-color: #1d232b;
+    z-index: -13;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.navbar{
+    width: 250px;
+    background: #03080f;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.botones{
+    text-decoration: none;
+    padding: 30px auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.botones a{
+    text-decoration: none;
+    font-weight: 50;
+    font-family: 'Satoshi';
+    font-size: 20px;
+    color: #B7BF99;
+}
+
+.logo{
+    display: flex;
+    padding: 0 30px;
+    text-decoration: none;
+    font-size: 70px;
+}
+.logo a {
+    text-decoration: none;
+    font-family: 'Satoshi';
+}
+
+.texto{
+    color: #005C53;
+    font-style: italic;
+}
+
+.punto{
+    color: #DBF227;
+}
+
+.saludo{
+    font-family: 'kola';
+    font-size: 60px;
+    color: #B7BF99;
+}
+
+.dev{
+    color: #B7BF99;
+    font-size: 35px;
+    font-family: 'Switzer';
+}
+
+.inicio{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nombre{
+    font-size: 120px;
+    display: flex;
+    font-family: 'Satoshi';
+    color: #005C53;
+    text-shadow: 2px 1px 10px rgba(32, 31, 44, 0.68);
+    line-height: 1;
+    width:min-content;
+    height: min-content;
+    position: relative;
+}
+
+.nombre::before{
+    content: '.';
+    font-size: 120px;
+    color: #DBF227;
+    position: absolute;
+    left: 35.44%;
+    top: -29.4%;
+}
+
+.nombre::after{
+    content: '.';
+    font-size: 120px;
+    color: #DBF227;
+    position: absolute;
+    left: 69.85%;
+    top: 20.4%;    
+}
+
+
+
+.sobre_mi{
+    color: #B7BF99;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.sobre_mi h2{
+    display: flex;
+    font-family: 'Kola';
+    font-size: 35px;
+    margin-bottom: 45px;
+    margin-top: 65px;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre_mi p{
+    font-size: 18px;
+    width: 90%;
+}
+
+.sobre_mi p span{
+    color: #DBF227;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: left;
+    height: 70%;
+    opacity: 0;
+    animation-name: animacionpresentacion;
+    animation-duration: 3.7s;
+    animation-timing-function: ease;
+    animation-delay: .7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animacionpresentacion {
+    0% {opacity: 0; transform: translate(0);}
+    100% {opacity: 1; transform: translate(25px);}
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img{
+    margin-left: -20%;
+    z-index: -11;
+    margin-top: 100px;
+}
+
+.img img{
+    width: 600px;
+    z-index: -11;
+    position: relative;
+    filter:grayscale(100%) drop-shadow(2px 0px 3px #DBF227);
+    object-fit: cover;
+    height: 90vh;
+    margin-bottom: 10%;
+    opacity: 0;
+    animation-name: animacionpresentacion;
+    animation-duration: 3.7s;
+    animation-timing-function: ease;
+    animation-delay: .7s;
+    animation-fill-mode: forwards;
+}
+
+.tecnologias-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.cards{
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.cards img{
+    object-fit:contain;
+    height: 50px;
+}
+
+.cards h3{
+    position: absolute;
+    font-size: 1rem;
+    background-color: #c8cac0;
+    font-weight: bold;
+    color: black;
+    font-family: 'Switzer';
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 6px;
+    position: relative;
+    top: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+
+.cards:hover h3{
+    visibility: visible;
+    opacity: 1;
+    z-index: 10;
+}
+
+.cards h3::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #B7BF99;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.tecnologias{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.tecnologias h2{
+    padding: 0 31px;
+}
+
+.github img{
+    filter: invert(100%);
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.proyectos{
+    padding: 50px;
+}
+
+.proyectos .tarjeta{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 280px;
+    margin-bottom: 40px;
+}
+
+.card-body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.card-body a{
+    background-color: #005C53;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: max-content;
+    border-radius: 11px;
+    padding: 13px;
+}
+
+.card-body a:hover{
+    background-color: #0c8f82;
+}
+
+.card-body img{
+    height: 1.8rem;
+    padding: 0 8px;
+}
+
+.interactivo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tec-usadas{
+    background-color: #1d232b;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 11px;
+    width: max-content;
+    padding: 10px;
+
+}
+
+.tec-usadas img{
+    height: 1.8rem;
+}
+
+.proyectos h2{
+    display: flex;
+    font-family: 'Kola';
+    font-size: 35px;
+    margin-bottom: 45px;
+    color: #B7BF99;
+}
+
+.contacto{
+    margin: 50px 0;
+    padding: 50px;
+}
+
+.contacto h2{
+    display: flex;
+    font-family: 'Kola';
+    font-size: 35px;
+    margin-bottom: 45px;
+    color: #B7BF99;
+}
+
+.separador{
+    display: flex;
+    flex-direction: row;
+}
+
+.contacto p{
+    font-size: 25px;
+    color: #B7BF99;
+    width: 45%;
+    margin-right: 50px;
+}
+
+.links{
+    justify-content: left;
+}
+
+.links a{
+    margin: 0 20px;
+}
+
+.links img{
+    width: 4rem;
+}

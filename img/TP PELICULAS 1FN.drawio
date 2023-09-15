@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" modified="2023-09-13T15:20:34.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="SovHvv4fNjnfYMPiuHS8" version="21.7.4" type="device">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yvco0alz0WeWLzjSiY3r-2" value="PELICULAS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="110" width="230" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvco0alz0WeWLzjSiY3r-4" value="&lt;u&gt;&lt;b&gt;Cod. País de filmación&lt;br&gt;Cod. Película&lt;br&gt;&lt;/b&gt;&lt;/u&gt;Nombre del país&lt;br&gt;Nombre de la película&lt;br&gt;Cod. Género&lt;br&gt;Descripción Género&lt;br&gt;Argumento de la película&lt;br&gt;Matrícula del Director&lt;br&gt;Nombre del Director&lt;br&gt;Costo de rodaje&lt;br&gt;Fecha de rodaje&lt;br&gt;Cod. de calificación de público&lt;br&gt;Descripción calificación de público " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Yvco0alz0WeWLzjSiY3r-2" vertex="1">
+          <mxGeometry y="30" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvco0alz0WeWLzjSiY3r-7" value="ACTORES" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="110" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Yvco0alz0WeWLzjSiY3r-8" value="&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Cod. País de filmación&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Cod. Película&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;&lt;/u&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;u&gt;Legajo internacional del actor&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Nombre del actor&lt;/span&gt;&lt;br&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Fecha de nacimiento&lt;/span&gt;&lt;br&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Perfil artístico&lt;/span&gt;&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Yvco0alz0WeWLzjSiY3r-7" vertex="1">
+          <mxGeometry y="30" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="E46uWOMZJiZuvzIVisH0-1" value="ANTECEDENTES" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="250" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E46uWOMZJiZuvzIVisH0-2" value="&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Cod. País de filmación&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Cod. Película&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;&lt;/u&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;Legajo internacional del actor&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cod. Película en la que intervino&lt;/span&gt;&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;u&gt;&lt;b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cod. País de filmación&lt;/span&gt;&lt;br&gt;&lt;/b&gt;&lt;/u&gt;&lt;blockquote style=&quot;border: none; margin: 0px 0px 0px 40px; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Fecha de realización&lt;/span&gt;&lt;br&gt;Papel interpretado" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="E46uWOMZJiZuvzIVisH0-1" vertex="1">
+          <mxGeometry y="30" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zyscd50tKv2P8ugZjR4j-1" value="CURSOS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zyscd50tKv2P8ugZjR4j-2" value="&lt;b&gt;&lt;u&gt;Cursos de Dirección realizados&lt;/u&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zyscd50tKv2P8ugZjR4j-1">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
